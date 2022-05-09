@@ -18,6 +18,7 @@ public class ProductsController {
     }
 
     //Interest
+    //I dont know how this works
 
     @GetMapping
     public List<Product> getAllProducts(){
