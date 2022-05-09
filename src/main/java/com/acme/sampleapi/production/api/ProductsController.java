@@ -17,6 +17,8 @@ public class ProductsController {
         this.service = service;
     }
 
+    //Interest
+
     @GetMapping
     public List<Product> getAllProducts(){
         return service.getAllProducts();
